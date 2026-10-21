@@ -1,0 +1,56 @@
+@font-face{
+    font-family: "TT Lakes";
+    src:url(https://webfonts.pro/base-web-fonts/sans-serif-grotesque/897-tt-lakes.html#google_vignette)
+}
+
+body{
+    font-family: "TT Lakes", sans-serif;
+    width:100%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.header__container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    background-color:white;
+    border:none;
+}
+
+.divider{
+    width: 2px;
+    height: 32px;
+    radius: 1px;
+    background-color: #EAEAEA;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+    padding:0;
+    margin: 0;
+}
+
+li{
+    width:246px;
+    height:40px;
+    color: #7E7E82;
+    
+;
+}
+
+p{
+    color:#1B1C21;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+}
