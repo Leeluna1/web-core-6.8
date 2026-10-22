@@ -9,14 +9,13 @@ body{
     min-width: 320px;
     margin: 0 auto;
     background-color: #F8F8F8;
+}
 
 .header__container{
     display:flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
-}
-
 }
 
 button{
@@ -27,15 +26,17 @@ button{
 .header__divider{
     width: 2px;
     height: 32px;
-    radius: 1px;
+    border-radius: 1px;
     background-color: #EAEAEA;
 }
+
 .title{
     display: flex;
     justify-content: flex-start;
     gap:15px;
     align-items: center;
 }
+
 .title__blue-line{
     width:4px;
     height:40px;
@@ -55,19 +56,20 @@ ul.nav__list {
     margin: 0;
 }
 
-li.nav__item {
+.nav__item > a {
+    display: flex;
     padding: 10px 12px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    background-color: #F8F8F8;
     color: #7E7E82;
+    text-decoration: none;
     white-space: nowrap;
 }
-li > a{
-    text-decoration: none;
-}
 
-li > a:focus {
-    outline: 1px solid #B8FFEC;
-    outline-offset: 10px;
-    radius: 6px;
+.nav__item--active > a {
+    border-color: #B8FFEC;
+    background-color: white;
 }
 
 p{
