@@ -6,14 +6,17 @@
 body{
     font-family: "TT Lakes", sans-serif;
     width:100%;
-    max-width: 320px;
+    min-width: 320px;
     margin: 0 auto;
-}
+    background-color: #F8F8F8;
 
 .header__container{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
+}
+
 }
 
 button{
@@ -21,29 +24,50 @@ button{
     border:none;
 }
 
-.divider{
+.header__divider{
     width: 2px;
     height: 32px;
     radius: 1px;
     background-color: #EAEAEA;
 }
+.title{
+    display: flex;
+    justify-content: flex-start;
+    gap:15px;
+    align-items: center;
+}
+.title__blue-line{
+    width:4px;
+    height:40px;
+    background-color: #41F6D7;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 
-ul{
+ul.nav__list {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    overflow-x: scroll;
-    padding:0;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 0;
     margin: 0;
 }
 
-li{
-    width:246px;
-    height:40px;
+li.nav__item {
+    padding: 10px 12px;
     color: #7E7E82;
-    
-;
+    white-space: nowrap;
+}
+li > a{
+    text-decoration: none;
+}
+
+li > a:focus {
+    outline: 1px solid #B8FFEC;
+    outline-offset: 10px;
+    radius: 6px;
 }
 
 p{
@@ -53,4 +77,6 @@ p{
 .arrow{
     display: flex;
     align-items: center;
+    background-color: #F8F8F8;
 }
+
