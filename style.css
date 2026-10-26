@@ -12,15 +12,26 @@ body{
 }
 
 .header__container{
+    padding:2%;
     display:flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
 }
 
+.header__container--left{
+    display: flex;
+    align-items: center;
+}
+
+.header__container--right{
+    display: flex;
+    align-items: center;
+}
+
 button{
     background-color:white;
-    border:none;
+    border:0;
 }
 
 .header__divider{
@@ -30,6 +41,9 @@ button{
     background-color: #EAEAEA;
 }
 
+.main-container {
+    padding:2%
+}
 .title{
     display: flex;
     justify-content: flex-start;
@@ -80,5 +94,10 @@ p{
     display: flex;
     align-items: center;
     background-color: #F8F8F8;
+}
+
+.main-image > img {
+    width:100%;
+    height:auto;
 }
 
