@@ -142,7 +142,7 @@ p {
     display: flex;
     align-items: flex-start;
     gap: 22px;
-    padding: 5%;
+    padding: 20px;
   }
 
   .article {
@@ -185,7 +185,7 @@ p {
     margin-right: 10px;
   }
   h1 {
-    padding-left: 2%;
+    padding-left: 10px;
   }
 }
 
@@ -233,7 +233,7 @@ p {
     border-radius: 8px;
   }
   .main-content {
-    padding: 3%;
+    padding: 16px;
   }
   .article__three {
     display: block;
